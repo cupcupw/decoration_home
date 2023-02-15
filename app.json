@@ -1,27 +1,31 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/furniture/index"
+    "pages/furniture/index",
+    "pages/decoration_detail/index"
   ],
   "tabBar": {
     "selectedColor": "#1BB295",
-    "list": [{
-      "pagePath": "pages/index/index",
-      "text": "装修",
-      "iconPath": "assets/images/zhuangxiu-icon.png",
-      "selectedIconPath": "assets/images/zhuangxiu-active-icon.png"
-    }, {
-      "pagePath": "pages/furniture/index",
-      "text": "家具",
-      "iconPath": "assets/images/jiaju-icon.png",
-      "selectedIconPath": "assets/images/jiaju-active-icon.png"
-    }]
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "装修",
+        "iconPath": "assets/images/zhuangxiu-icon.png",
+        "selectedIconPath": "assets/images/zhuangxiu-active-icon.png"
+      },
+      {
+        "pagePath": "pages/furniture/index",
+        "text": "家具",
+        "iconPath": "assets/images/jiaju-icon.png",
+        "selectedIconPath": "assets/images/jiaju-active-icon.png"
+      }
+    ]
   },
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

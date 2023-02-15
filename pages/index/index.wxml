@@ -1,2 +1,6 @@
 <view class="container">
+  <view class="container_item" wx:for="{{typeList}}" wx:key="id" data-id="{{item.id}}" bindtap="handlejump">
+    <image class="container_item_image" src="{{'http://localhost:3000/images/'+item.name+'.jpg'}}" />
+    {{ item.name }}
+  </view>
 </view>
